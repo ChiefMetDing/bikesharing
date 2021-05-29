@@ -1,10 +1,10 @@
-# Citibike 2019 August Bike Sharing Analysis
+# Citi Bike 2019 August Bike Sharing Analysis
 
 (Please find graphs and charts in the following link. No graphs or charts is provided in this document. 
 [link to dashboard](https://public.tableau.com/app/profile/ding.zhang/viz/M14Challenge/HowtoRideBikesElegantly "link to dashboard"))
 
 ## Overview
-The analysis processed Citibike's bike sharing data obtained in August 2019 in New York City. The purpose of the analysis is to convince investors that a bike-sharing program in Des Moines is a solid business proposal, giving the fact that both cities are similar in the following ways:
+The analysis processed Citi Bike's bike sharing data obtained in August 2019 in New York City. The purpose of the analysis is to convince investors that a bike-sharing program in Des Moines is a solid business proposal, giving the fact that both cities are similar in the following ways:
 
 - Are on the planet Earth;
 - Have citizens know how to ride a bike;
