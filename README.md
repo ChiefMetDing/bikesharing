@@ -5,7 +5,7 @@
 ## Overview
 The analysis processed Citibike's bike sharing data obtained in August 2019 in New York City. The purpose of the analysis is to convince investors that a bike-sharing program in Des Moines is a solid business proposal, giving the fact that both cities are similar in the following ways:
 
-- In the US;
+- Are on the planet Earth;
 - Have citizens;
 - Have people know how to ride a bike.
 
