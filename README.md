@@ -11,13 +11,27 @@ The analysis processed Citibike's bike sharing data obtained in August 2019 in N
 
 ## Results
 ### Starting and Ending Locations
-It is interesting to see that during weekdays peak hours, the ending locations in the afternoons are very close to the starting locations in the mornings. Same way, the ending locations in the mornings are very close to the starting locations in the afternoons. This suggests that the OPEX spent on relocating bikes during weekdays is low, because people tend to ride to work and ride back from work.
-![weekday_morning_starting_locations](https://user-images.githubusercontent.com/78275082/120086515-92d15680-c0ad-11eb-9af3-54007ac3b6ef.png)
-![weekday_morning_ending_locations](https://user-images.githubusercontent.com/78275082/120086518-96fd7400-c0ad-11eb-91f8-2435b4f48eed.png)
-![weekday_afternoon_starting_locations](https://user-images.githubusercontent.com/78275082/120086520-995fce00-c0ad-11eb-9011-6bad7634a1bd.png)
-![weekday_afternoon_ending_locations](https://user-images.githubusercontent.com/78275082/120086526-9b299180-c0ad-11eb-9547-40763dd4eaef.png)
+It is interesting to see that during weekday’s peak hours, the ending locations in the afternoons are very close to the starting locations in the mornings. Same way, the ending locations in the mornings are very close to the starting locations in the afternoons. This suggests that the OPEX spent on relocating bikes during weekdays is low, because people tend to ride to work and ride back from work.
 
+However, the starting and ending locations over weekends are in a completely different pattern to the weekdays'. This means it may require more bikes relocation moving between weekdays and weekends, to better serve the community.
 
+### Number Trips by Weekday Hours
+The analysis shows that the peak hours from Monday to Friday are 6 ~ 10 am and 4 ~ 8 pm. Over the weekend, the number of rides starts rising up at 9am and going down at 6 pm. The heat map plotted by genders shows the same pattern between male and female.
 
+Different from the instruction, the analysis used Starttime on the x-axis instead of Stoptime. Reason being is that the purpose of this analysis is to show number of rides happen in different hours in different weekdays. Choosing Stoptime on x-axis shows number of rides start in different hours but end in different weekdays.
+
+### Checkout Times Distribution
+The graph shows that most of rides last around 5 mins. This conclusion applies to both male and female. The percentage passing minute plots show that less than 2% of the rides last longer than 1 hour. 50% of rides are less than 13 minutes. Moreover, the rides on weekdays tend to be shorter than rides on weekends. Female riders ride longer than Male riders do, no matter on weekdays or weekends.
+
+### User Trips by Gender by Weekdays
+The analysis shows both female and male subscribers ride more during weekdays, except for Wednesdays. However, non-subscribers tend to ride over weekends.
 
 ## Summary
+In terms of bikes relocation, manpower required is higher when shifts between weekdays and weekends, which is Sunday night/Monday morning, Friday night/Saturday morning. Trips by weekday hours analysis suggests daytime maintenance should be scheduled between 10 am and 4 pm during weekdays. Checkout times statistics suggests that majority of rides are short time and probably short distance during weekdays. The rides are slightly longer during weekends.
+
+There are two more additional visualizations suggested for future analysis:
+
+- Popularity of stations. This will determine which station requires more maintenance and more investment.
+- Bikes utilization by dates. This will help maintenance planning on individual bikes.
+
+Conclusion: bike sharing business is highly recommended in Des Moines, because there are hours, weekdays, weekends, males, females, roads and streets in the city.
